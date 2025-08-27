@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <nav class="navegacao">
+         <!-- Menu com link para todas as abas do site -->
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+
+            <li>
+                <a href="#contatos" class="menu-link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+     <!-- Aba Inicio -->
+    <main id="inicio" class="cabecalho">
+        <h1>Enzo Reis Gonçalves</h1>
+        <p class="cabecalho-subtitulo">Desenvolvedor de Software</p>
+    </main>
+     <!-- Aba Sobre -->
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá! Sou um Analista de Redes Senior, com conhecimento em diversos protocolos como: TCP/IP, OSPF, MPLS,
+                BGP, DNS. Busco migrar de carreira dentro da área de tecnologia, atualmente estou cursando Engenharia de
+                Software na Uninter, tenho conhecimento básico nas principais ferramentas de desenvolvimento Web: HTML5,
+                CSS3 e JavaScript.
+            </p>
+        </div>
+    </section>
+     <!-- Aba Projetos -->
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <!-- abertura card projeto -->
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <a href="https://github.com/enzoreis11/alimentacao-portfolio" class="projetos-link" target="_blank">
+                <img src="imagens/projeto1.png" alt="Projeto 1" class="projetos-imagens">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto - Biografia Leonardo da Vinci</h3>
+                    <p class="paragrafo-projetos">Projeto para aprendizado de HTML e CSS, feito seguindo a aula pratica 4 do curso da Uninter - Engenharia de Software.
+                    </p>
+                    </a>
+                </div>
+                
+            </div>
+            <!-- fechamento card projeto -->
+            <!-- abertura card projeto -->
+            <div class="projetos-card">
+                <a href="https://github.com/enzoreis11/calculadora-imc" class="projetos-link" target="_blank">
+                <img src="imagens/projeto2.png" alt="Projeto 2" class="projetos-imagens">                
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Projeto - Calculadora IMC</h3>
+                    <p class="paragrafo-projetos">Projeto de uma calculadora de IMC - utilizando HTML, CSS e JavaScript.
+                    </p>
+                    </a>
+                </div>
+            </div>
+            <!-- fechamento card projeto -->
+        </div>
+    </section>
+     <!-- Aba Contato -->
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            <div class="grupo-form">
+                <input placeholder="Email" class="campo-form" id="email">
+            </div>
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem" rows="6" id="mensagem"></textarea>
+            </div>
+
+            <button type="submit"class="botao-form">Enviar</button>
+        </form>
+    </section>
+    
+
+
+</body>
+
+</html>
