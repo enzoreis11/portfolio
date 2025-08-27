@@ -107,6 +107,38 @@ h1 {
     text-align: center;
     font-size: 1rem;
 }
+/* qualificacao*/
+.qualificacoes {
+    padding: 6rem 2rem;
+}
+
+.qualificacao-titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.qualificacao-card {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid var(--vidro);
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255, 0.05);
+    margin-bottom: 30px;
+}
+
+.info-qualificacao {
+    margin: 10px;
+    text-align: center;  
+}
+
+.paragrafo-qualificacao {
+    color: rgba(226, 232, 240, 0.8);
+    line-height: 1.25rem;
+    text-align: center;
+}
 /* projetos*/
 .projetos {
     padding: 6rem 2rem;
@@ -116,7 +148,6 @@ h1 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 50px;
-
 }
 
 .projetos-imagens {
@@ -131,17 +162,16 @@ h1 {
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 .projetos-card {
-     background: rgba(255,255,255, 0.05);
-     border-radius: 16px;
-     backdrop-filter: blur(5px);
-     border: 1px solid var(--vidro);
-     overflow: hidden;
-     transition: all 0.5s ease;
-     cursor: pointer;
+    background: rgba(255,255,255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    border: 1px solid var(--vidro);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .projetos-card:hover {
